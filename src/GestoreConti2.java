@@ -1,4 +1,4 @@
-public class TestTrasferimentoFondi2 {
+public class GestoreConti2 {
     public static void main(String[] args) throws InterruptedException {
 
         // trasferire da contoB --> contoA;
