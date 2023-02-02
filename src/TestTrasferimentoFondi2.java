@@ -1,4 +1,4 @@
-public class TestTrasferimentoFondiSicuro {
+public class TestTrasferimentoFondi2 {
     public static void main(String[] args) throws InterruptedException {
 
         // trasferire da contoB --> contoA;
@@ -8,15 +8,15 @@ public class TestTrasferimentoFondiSicuro {
 
         Banca banca = new Banca(100, 200);
 
-        TrasferimentoFondiMutuaEsclusione threadA = new TrasferimentoFondiMutuaEsclusione("threadA", banca, transfer1);
-        TrasferimentoFondiMutuaEsclusione threadB = new TrasferimentoFondiMutuaEsclusione("threadB", banca, transfer2);
+        TrasferimentoFondi2 threadA = new TrasferimentoFondi2("threadA", banca, transfer1);
+        TrasferimentoFondi2 threadB = new TrasferimentoFondi2("threadB", banca, transfer2);
 
         System.out.println("START CONTO A: " + banca.contoA + " - CONTO B: " + banca.contoB +
                 ", TOTALE: " + (banca.contoA + banca.contoB));
 
         System.out.println("TRASFERIAMO " + transfer1 + " B --> A");
         System.out.println("TRASFERIAMO " + transfer2 + " B --> A");
-        
+
         threadA.start();
         threadB.start();
 

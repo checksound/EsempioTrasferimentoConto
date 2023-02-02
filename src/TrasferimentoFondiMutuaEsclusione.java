@@ -1,7 +1,7 @@
-class TrasferimentoFondiSicuro extends Thread {
+class TrasferimentoFondiMutuaEsclusione extends Thread {
     private int valueToTransfer;
     private Banca banca;
-    public TrasferimentoFondiSicuro(String name, Banca banca, int valueToTransfer) {
+    public TrasferimentoFondiMutuaEsclusione(String name, Banca banca, int valueToTransfer) {
         super(name);
         this.banca = banca;
         this.valueToTransfer = valueToTransfer;
