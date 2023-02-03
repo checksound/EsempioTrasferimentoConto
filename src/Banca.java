@@ -5,6 +5,4 @@ public class Banca {
        this.contoA = contoA;
        this.contoB = contoB;
    }
-
-
 }
