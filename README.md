@@ -1,8 +1,6 @@
 # Esempio Trasferimento Fondi
 
 Esempio sulle sequenze critiche. 
-Vedi [Esempio trasferimento fondi](https://checksound.gitbook.io/corsojava/i-thread-e-concorrenza#esempio-trasferimento-fondi)
-
 
 ## Sequenza critica
 
