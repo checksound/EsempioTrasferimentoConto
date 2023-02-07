@@ -15,8 +15,8 @@ class TrasferimentoFondi2 extends Thread {
             throw new RuntimeException(e);
         }
 
-        banca.contoA = banca.contoA += valueToTransfer;     // step 1
-        banca.contoB = banca.contoB -= valueToTransfer;     // step 2
+        banca.contoA += valueToTransfer;     // step 1
+        banca.contoB -= valueToTransfer;     // step 2
 
     }
 }
