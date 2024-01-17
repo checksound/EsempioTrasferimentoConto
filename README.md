@@ -72,8 +72,8 @@ applicazione [GestoreConti2](./src/GestoreConti2.java)
 ```java
 // in TrasferimentoFondi2.run()
 
-banca.contoA = banca.contoA += valueToTransfer;     // step 1
-banca.contoB = banca.contoB -= valueToTransfer;     // step 2
+banca.contoA += valueToTransfer;     // step 1
+banca.contoB -= valueToTransfer;     // step 2
 ```
 
 Output di esecuzioni successive come nel caso precedente:
